@@ -1,0 +1,27 @@
+# 本地配置和密钥
+.env
+.env.*
+!.env.example
+
+# 依赖、构建和安装元数据
+.venv/
+venv/
+node_modules/
+dist/
+build/
+*.egg-info/
+
+# Python 和测试缓存
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# 本机编辑器与生成文件
+.idea/
+.vscode/
+*.log
+/reports/
+/deliverables/
